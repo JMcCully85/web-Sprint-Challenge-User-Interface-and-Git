@@ -51,7 +51,7 @@ table {
     margin: 0;
     padding: 0;
     max-width: 100%;
-    border: 1px solid red;
+    border: 1px solid red; 
 }
 
 html {
@@ -100,13 +100,13 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 1% 10%;
+    padding: 3% 10%;
 }
 
 nav {
     display: flex;
-    justify-content: space-evenly;
-    width: 30%;
+    justify-content: space-around;
+    width: 70%;  
 }
 
 .banner {
