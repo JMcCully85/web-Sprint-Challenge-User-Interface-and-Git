@@ -51,7 +51,7 @@ table {
     margin: 0;
     padding: 0;
     max-width: 100%;
-    border: 1px solid red; 
+    /* border: 1px solid red;  */
 }
 
 html {
@@ -252,4 +252,37 @@ footer nav a {
 
 .about-text p {
     width: 95%;
+}
+
+.mid-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    border: 1px solid red;
+    /* gap: 1em;  */
+    /* margin-top: 2%; */
+    margin-left: 4%;
+}
+
+.mid-section div {
+    width: 40%;
+    border-bottom: 1px dotted black;
+}
+
+.mid-section div img {
+    /* padding: 10% 0 0 10%; */
+}
+
+.mid-section div div {
+    margin: 5% 0 4% 0;
+    border: 2px solid black;
+    padding: 1%;
+}
+
+.info-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5%;
 }
