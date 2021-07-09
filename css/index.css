@@ -259,25 +259,21 @@ footer nav a {
     flex-wrap: wrap;
     justify-content: space-between;
     width: 90%;
-    border: 1px solid red;
-    /* gap: 1em;  */
-    /* margin-top: 2%; */
     margin-left: 4%;
 }
 
 .mid-section div {
-    width: 40%;
+    width: 45%;
     border-bottom: 1px dotted black;
-}
-
-.mid-section div img {
-    /* padding: 10% 0 0 10%; */
+    margin-left: 5%;
 }
 
 .mid-section div div {
     margin: 5% 0 4% 0;
     border: 2px solid black;
-    padding: 1%;
+    padding: 3%;
+    border-radius: 15px;
+    text-align: center;
 }
 
 .info-text {
